@@ -25,11 +25,7 @@ switch ($Gen) {
     2 {
         $attributes = @()
         1..6|ForEach-Object{
-            $rolls = @()
-            1..4|ForEach-Object{
-                $rolls += @($dice.GetD6())
-            }
-            $roll = @($rolls|Sort-Object -Descending|Select-Object -first 3)
+            $roll = @($dice.GetD6(4)|Sort-Object -Descending|Select-Object -first 3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
            $attributes += @($roll)
         }

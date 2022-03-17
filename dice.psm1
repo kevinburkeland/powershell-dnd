@@ -1,23 +1,34 @@
 class Dice {
-    [int[]]GetD4(){
-        return (Get-Random -maximum 4)+1
+    [int]$max_roll
+    [int]$num_dice
+
+    [int[]]roll($max_roll, $num_dice){
+        $rolls = @()
+        1..$num_dice|ForEach-Object {
+            $roll=(Get-Random -Maximum $max_roll)+1
+            $rolls += $roll
+            }
+        return $rolls
     }
-    [int[]]GetD6(){
-        return (Get-Random -maximum 6)+1
+    [int[]]GetD4($num_dice){
+        return $this.roll(4, $num_dice)
     }
-    [int[]]GetD8(){
-        return (Get-Random -maximum 8)+1
+    [int[]]GetD6($num_dice){
+        return $this.roll(6, $num_dice)
     }
-    [int[]]GetD10(){
-        return (Get-Random -maximum 10)+1
+    [int[]]GetD8($num_dice){
+        return $this.roll(8, $num_dice)
     }
-    [int[]]GetD12(){
-        return (Get-Random -maximum 12)+1
+    [int[]]GetD10($num_dice){
+        return $this.roll(10, $num_dice)
     }
-    [int[]]GetD20(){
-        return (Get-Random -maximum 20)+1
+    [int[]]GetD12($num_dice){
+        return $this.roll(12, $num_dice)
     }
-    [int[]]GetD100(){
-        return (Get-Random -maximum 100)+1
+    [int[]]GetD20($num_dice){
+        return $this.roll(20, $num_dice)
+    }
+    [int[]]GetD100($num_dice){
+        return $this.roll(100, $num_dice)
     }
 }
