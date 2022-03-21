@@ -1,14 +1,14 @@
 using module ./dice.psm1
 $dice = [Dice]::new()
 
-$playerAttrib = [PSCustomObject]@{
-    Strength = 0
-    Dexterity = 0
-    Constitution = 0
-    Intelligence = 0
-    Wisdom = 0
-    Charisma = 0
-}
+$playerAttrib = @(
+    [pscustomobject]@{Attribute='Strength';Value='0'}
+    [pscustomobject]@{Attribute='Dexterity';Value='0'}
+    [pscustomobject]@{Attribute='Constitution';Value='0'}
+    [pscustomobject]@{Attribute='Intelligence';Value='0'}
+    [pscustomobject]@{Attribute='Wisdom';Value='0'}
+    [pscustomobject]@{Attribute='Charisma';Value='0'}
+)
 
 Write-Host -Object ("Welcome to the D&D character roller written by Kevin Burkeland
 
@@ -49,8 +49,8 @@ switch ($Gen) {
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
            $rolls += @($roll)
         }
-        $attributes = for ($i = 0; $i -lt 6; $i++) {
-            
+        for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
+            $playerAttrib[$i].Value = $rolls[$i]
         }
     }
 }
