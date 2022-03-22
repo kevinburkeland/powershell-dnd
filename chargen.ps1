@@ -2,12 +2,12 @@ using module ./dice.psm1
 $dice = [Dice]::new()
 
 $playerAttrib = @(
-    [pscustomobject]@{Attribute='Strength';Value='0'}
-    [pscustomobject]@{Attribute='Dexterity';Value='0'}
-    [pscustomobject]@{Attribute='Constitution';Value='0'}
-    [pscustomobject]@{Attribute='Intelligence';Value='0'}
-    [pscustomobject]@{Attribute='Wisdom';Value='0'}
-    [pscustomobject]@{Attribute='Charisma';Value='0'}
+    [pscustomobject]@{Attribute='Strength';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Dexterity';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Constitution';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Intelligence';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Wisdom';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Charisma';Value='0';Modifier='0'}
 )
 
 Write-Host -Object ("Welcome to the D&D character roller written by Kevin Burkeland
