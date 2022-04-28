@@ -1,0 +1,53 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Attribute">Strength</S>
+      <S N="Value">0</S>
+      <S N="Modifier">0</S>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Attribute">Dexterity</S>
+      <S N="Value">0</S>
+      <S N="Modifier">0</S>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Attribute">Constitution</S>
+      <S N="Value">0</S>
+      <S N="Modifier">0</S>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Attribute">Intelligence</S>
+      <S N="Value">0</S>
+      <S N="Modifier">0</S>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Attribute">Wisdom</S>
+      <S N="Value">0</S>
+      <S N="Modifier">0</S>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Attribute">Charisma</S>
+      <S N="Value">0</S>
+      <S N="Modifier">0</S>
+    </MS>
+  </Obj>
+</Objs>
