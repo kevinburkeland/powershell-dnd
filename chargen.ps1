@@ -16,8 +16,9 @@ Pick your stat gen style:
 1. Generous: 4d6 drops the lowest and gives you one 18 to start with
 2. Standard: roll 4d6 drops the lowest
 3. Rough: 3d6, thats all you get
-4. Old School: 3d6 Down the line, you don't get to choose")
-[int]$Gen = Read-Host -Prompt "Enter your choice [1-4]"
+4. Old School: 3d6 Down the line, you don't get to choose
+5. Silly: 1d20 for each stat, you get to choose")
+[int]$Gen = Read-Host -Prompt "Enter your choice [1-5]: "
 switch ($Gen) {
     1 {        
         [System.Collections.ArrayList]$rolls = @(18)
@@ -53,6 +54,9 @@ switch ($Gen) {
             $playerAttrib[$i].Value = $rolls[$i]
         }
     }
+    5   {
+        $rolls = $dice.GetD20(6)
+        }
 }
 if (!($playerAttrib[1].Value -gt 0)) {
     for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
