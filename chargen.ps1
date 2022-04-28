@@ -20,27 +20,27 @@ Pick your stat gen style:
 [int]$Gen = Read-Host -Prompt "Enter your choice [1-4]"
 switch ($Gen) {
     1 {        
-        $rolls = @(18)
+        [System.Collections.ArrayList]$rolls = @(18)
         1..5|ForEach-Object{
             $roll = @($dice.GetD6(4)|Sort-Object -Descending|Select-Object -first 3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-           $rolls += @($roll)
+            $rolls += @($roll)
         }
     }
     2 {
-        $rolls = @()
+        [System.Collections.ArrayList]$rolls = @()
         1..6|ForEach-Object{
             $roll = @($dice.GetD6(4)|Sort-Object -Descending|Select-Object -first 3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-           $rolls += @($roll)
+            $rolls += @($roll)
         }
     }
     3 {
-        $rolls = @()
+        [System.Collections.ArrayList]$rolls = @()
         1..6|ForEach-Object{
             $roll = $dice.GetD6(3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-           $rolls += @($roll)
+            $rolls += @($roll)
         }
     }
     4 {
@@ -51,6 +51,20 @@ switch ($Gen) {
         }
         for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
             $playerAttrib[$i].Value = $rolls[$i]
+        }
+    }
+}
+if (!($playerAttrib[1].Value -gt 0)) {
+    for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
+        write-host -ForegroundColor Green "Attribute you are choosing:" $playerAttrib[$i].Attribute
+        Write-host -ForegroundColor Yellow "Your Options:" $rolls
+        [int]$userSelection = Read-Host -Prompt "Enter your choice"
+        if ($rolls -contains $userSelection) {
+            $playerAttrib[$i].Value = $userSelection
+            $rolls.Remove($userSelection)
+        } else {
+            write-host -ForegroundColor Red "invalid selection"
+            $i--
         }
     }
 }
