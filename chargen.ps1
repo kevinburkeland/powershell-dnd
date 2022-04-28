@@ -77,3 +77,14 @@ for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
     $playerAttrib[$i].Modifier = [math]::Floor($mod)
 }
 $playerAttrib
+$prompt = Read-Host -Prompt "do you want to save this character? [y/n]"
+if ($prompt -eq 'y') {
+    $charactername = Read-Host -Prompt "Enter your character name"
+    $charactername = $charactername -replace " ","_"
+    if (test-path -Path Characters\$charactername) {
+        write-host -ForegroundColor Red "Character already exists"
+    } else {
+        mkdir Characters\$charactername
+        $playerAttrib|Export-Clixml -Path Characters\$charactername\"$charactername"_attributes.xml
+    }
+}
