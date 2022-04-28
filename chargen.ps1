@@ -18,7 +18,7 @@ Pick your stat gen style:
 3. Rough: 3d6, thats all you get
 4. Old School: 3d6 Down the line, you don't get to choose
 5. Silly: 1d20 for each stat, you get to choose")
-[int]$Gen = Read-Host -Prompt "Enter your choice [1-5]: "
+[int]$Gen = Read-Host -Prompt "Enter your choice [1-5]"
 switch ($Gen) {
     1 {        
         [System.Collections.ArrayList]$rolls = @(18)
