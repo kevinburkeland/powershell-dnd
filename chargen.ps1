@@ -1,6 +1,15 @@
 using module ./dice.psm1
 $dice = [Dice]::new()
-[int]$sum
+
+$playerAttrib = @(
+    [pscustomobject]@{Attribute='Strength';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Dexterity';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Constitution';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Intelligence';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Wisdom';Value='0';Modifier='0'}
+    [pscustomobject]@{Attribute='Charisma';Value='0';Modifier='0'}
+)
+
 Write-Host -Object ("Welcome to the D&D character roller written by Kevin Burkeland
 
 Pick your stat gen style:
@@ -11,29 +20,52 @@ Pick your stat gen style:
 [int]$Gen = Read-Host -Prompt "Enter your choice [1-4]"
 switch ($Gen) {
     1 {        
-        $attributes = @(18)
+        [System.Collections.ArrayList]$rolls = @(18)
         1..5|ForEach-Object{
             $roll = @($dice.GetD6(4)|Sort-Object -Descending|Select-Object -first 3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-           $attributes += @($roll)
+            $rolls += @($roll)
         }
     }
     2 {
-        $attributes = @()
+        [System.Collections.ArrayList]$rolls = @()
         1..6|ForEach-Object{
             $roll = @($dice.GetD6(4)|Sort-Object -Descending|Select-Object -first 3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-           $attributes += @($roll)
+            $rolls += @($roll)
         }
     }
     3 {
-        $attributes = @()
+        [System.Collections.ArrayList]$rolls = @()
         1..6|ForEach-Object{
             $roll = $dice.GetD6(3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-           $attributes += @($roll)
+            $rolls += @($roll)
         }
     }
-    4 {"bonk 4"}
+    4 {
+        1..6|ForEach-Object{
+            $roll = $dice.GetD6(3)
+            $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
+           $rolls += @($roll)
+        }
+        for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
+            $playerAttrib[$i].Value = $rolls[$i]
+        }
+    }
 }
-$attributes |Where-Object {$_}
+if (!($playerAttrib[1].Value -gt 0)) {
+    for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
+        write-host -ForegroundColor Green "Attribute you are choosing:" $playerAttrib[$i].Attribute
+        Write-host -ForegroundColor Yellow "Your Options:" $rolls
+        [int]$userSelection = Read-Host -Prompt "Enter your choice"
+        if ($rolls -contains $userSelection) {
+            $playerAttrib[$i].Value = $userSelection
+            $rolls.Remove($userSelection)
+        } else {
+            write-host -ForegroundColor Red "invalid selection"
+            $i--
+        }
+    }
+}
+$playerAttrib
