@@ -72,4 +72,8 @@ if (!($playerAttrib[1].Value -gt 0)) {
         }
     }
 }
+for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
+    [decimal]$mod=($playerAttrib[$i].Value -10)/ 2
+    $playerAttrib[$i].Modifier = [math]::Floor($mod)
+}
 $playerAttrib
