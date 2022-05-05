@@ -47,7 +47,7 @@ switch ($Gen) {
         }
     }
     5   {
-        $rolls = $dice.GetD20(6)
+        [System.Collections.ArrayList]$rolls = $dice.GetD20(6)
         }
 }
 if (!($playerAttrib[1].Value -gt 0)) {
