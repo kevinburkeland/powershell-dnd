@@ -1,4 +1,3 @@
-#made by kevin
 class Dice {
     [int]$max_roll
     [int]$num_dice
