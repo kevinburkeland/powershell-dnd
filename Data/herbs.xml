@@ -1,8 +1,8 @@
 <Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
   <Obj RefId="0">
     <TN RefId="0">
-      <T>System.Management.Automation.PSCustomObject</T>
-      <T>System.Object</T>
+      <T>Deserialized.System.Management.Automation.PSCustomObject</T>
+      <T>Deserialized.System.Object</T>
     </TN>
     <MS>
       <Obj N="Name" RefId="1">
@@ -13,8 +13,8 @@
           <S N="PSChildName">common.txt</S>
           <Obj N="PSDrive" RefId="2">
             <TN RefId="1">
-              <T>System.Management.Automation.PSDriveInfo</T>
-              <T>System.Object</T>
+              <T>Deserialized.System.Management.Automation.PSDriveInfo</T>
+              <T>Deserialized.System.Object</T>
             </TN>
             <ToString>C</ToString>
             <Props>
@@ -22,8 +22,8 @@
               <S N="Name">C</S>
               <Obj N="Provider" RefId="3">
                 <TN RefId="2">
-                  <T>System.Management.Automation.ProviderInfo</T>
-                  <T>System.Object</T>
+                  <T>Deserialized.System.Management.Automation.ProviderInfo</T>
+                  <T>Deserialized.System.Object</T>
                 </TN>
                 <ToString>Microsoft.PowerShell.Core\FileSystem</ToString>
                 <Props>
@@ -38,8 +38,8 @@
                   <S N="Home">C:\Users\kburkelands</S>
                   <Obj N="Drives" RefId="4">
                     <TN RefId="3">
-                      <T>System.Collections.ObjectModel.Collection`1[[System.Management.Automation.PSDriveInfo, System.Management.Automation, Version=7.2.3.500, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]</T>
-                      <T>System.Object</T>
+                      <T>Deserialized.System.Collections.ObjectModel.Collection`1[[System.Management.Automation.PSDriveInfo, System.Management.Automation, Version=7.2.3.500, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]</T>
+                      <T>Deserialized.System.Object</T>
                     </TN>
                     <LST>
                       <Ref RefId="2" />
@@ -3194,6 +3194,744 @@
       </Obj>
       <S N="Biome">Forest</S>
       <S N="Rarity">Legendary</S>
+    </MS>
+  </Obj>
+  <Obj RefId="352">
+    <TN RefId="5">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="353">
+        <S>Arfandas</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Obj N="PSDrive" RefId="354">
+            <TN RefId="6">
+              <T>System.Management.Automation.PSDriveInfo</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>C</ToString>
+            <Props>
+              <S N="CurrentLocation">Users\kburkelands\Documents\GitHub\powershell-dnd</S>
+              <S N="Name">C</S>
+              <Obj N="Provider" RefId="355">
+                <TN RefId="7">
+                  <T>System.Management.Automation.ProviderInfo</T>
+                  <T>System.Object</T>
+                </TN>
+                <ToString>Microsoft.PowerShell.Core\FileSystem</ToString>
+                <Props>
+                  <S N="ImplementingType">Microsoft.PowerShell.Commands.FileSystemProvider</S>
+                  <S N="HelpFile">System.Management.Automation.dll-Help.xml</S>
+                  <S N="Name">FileSystem</S>
+                  <S N="PSSnapIn">Microsoft.PowerShell.Core</S>
+                  <S N="ModuleName">Microsoft.PowerShell.Core</S>
+                  <Nil N="Module" />
+                  <S N="Description"></S>
+                  <S N="Capabilities">Filter, ShouldProcess, Credentials</S>
+                  <S N="Home">C:\Users\kburkelands</S>
+                  <Obj N="Drives" RefId="356">
+                    <TN RefId="8">
+                      <T>System.Collections.ObjectModel.Collection`1[[System.Management.Automation.PSDriveInfo, System.Management.Automation, Version=7.2.3.500, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]</T>
+                      <T>System.Object</T>
+                    </TN>
+                    <LST>
+                      <Ref RefId="354" />
+                      <S>Temp</S>
+                    </LST>
+                  </Obj>
+                  <B N="VolumeSeparatedByColon">true</B>
+                  <C N="ItemSeparator">92</C>
+                  <C N="AltItemSeparator">47</C>
+                </Props>
+              </Obj>
+              <S N="Root">C:\</S>
+              <S N="Description"></S>
+              <Nil N="MaximumSize" />
+              <Ref N="Credential" RefId="5" />
+              <Nil N="DisplayRoot" />
+              <B N="VolumeSeparatedByColon">true</B>
+            </Props>
+            <MS>
+              <I64 N="Used">126936752128</I64>
+              <I64 N="Free">372593315840</I64>
+            </MS>
+          </Obj>
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="357">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="358">
+        <S>Arpusar</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="359">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="360">
+        <S>Attanar</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="361">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="362">
+        <S>Belramba</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="363">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="364">
+        <S>Cat’s Tail</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">5</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="365">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="366">
+        <S>Elven Willow</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">6</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="367">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="368">
+        <S>Harfy</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">7</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="369">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="370">
+        <S>Horehound</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">8</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="371">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="372">
+        <S>Lungwort</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">9</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="373">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="374">
+        <S>Marshmallow</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">10</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="375">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="376">
+        <S>Nettle</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">11</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="377">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Common</S>
+      <Obj N="Name" RefId="378">
+        <S>Watercress</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\common.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">common.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">12</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="379">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Uncommon</S>
+      <Obj N="Name" RefId="380">
+        <S>Calamus</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\uncommon.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">uncommon.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="381">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Uncommon</S>
+      <Obj N="Name" RefId="382">
+        <S>Colewort</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\uncommon.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">uncommon.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="383">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Uncommon</S>
+      <Obj N="Name" RefId="384">
+        <S>Dahkra</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\uncommon.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">uncommon.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="385">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Uncommon</S>
+      <Obj N="Name" RefId="386">
+        <S>Dragonwort</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\uncommon.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">uncommon.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="387">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Uncommon</S>
+      <Obj N="Name" RefId="388">
+        <S>Ember Root</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\uncommon.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">uncommon.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">5</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="389">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Uncommon</S>
+      <Obj N="Name" RefId="390">
+        <S>Lashar</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\uncommon.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">uncommon.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">6</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="391">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">SemiRare</S>
+      <Obj N="Name" RefId="392">
+        <S>Air Plant</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\semirare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">semirare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="393">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">SemiRare</S>
+      <Obj N="Name" RefId="394">
+        <S>Edram</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\semirare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">semirare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="395">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">SemiRare</S>
+      <Obj N="Name" RefId="396">
+        <S>Fjor’da</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\semirare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">semirare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="397">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">SemiRare</S>
+      <Obj N="Name" RefId="398">
+        <S>Lakeleaf</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\semirare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">semirare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="399">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="400">
+        <S>Darkroot</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="401">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="402">
+        <S>Entangle Weed</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="403">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="404">
+        <S>Flintmoss</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="405">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="406">
+        <S>Maruera</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="407">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="408">
+        <S>Melander</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">5</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="409">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="410">
+        <S>Orevine</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">6</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="411">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="412">
+        <S>Panaeolo</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">7</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="413">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="414">
+        <S>Pennyroyal</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">8</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="415">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="416">
+        <S>Sweet Trefoile</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">9</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="417">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Rare</S>
+      <Obj N="Name" RefId="418">
+        <S>Tereeka Root</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\rare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">rare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">10</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="419">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">UltraRare</S>
+      <Obj N="Name" RefId="420">
+        <S>Nahre Lotus</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\ultrarare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">ultrarare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="421">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">UltraRare</S>
+      <Obj N="Name" RefId="422">
+        <S>Olus Veritis</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\ultrarare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">ultrarare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="423">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">UltraRare</S>
+      <Obj N="Name" RefId="424">
+        <S>Sweet Arcane</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\ultrarare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">ultrarare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="425">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">UltraRare</S>
+      <Obj N="Name" RefId="426">
+        <S>Yuzine</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\ultrarare.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">ultrarare.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="427">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Legendary</S>
+      <Obj N="Name" RefId="428">
+        <S>Lizuara</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\legendary.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">legendary.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
+    </MS>
+  </Obj>
+  <Obj RefId="429">
+    <TNRef RefId="5" />
+    <MS>
+      <S N="Rarity">Legendary</S>
+      <Obj N="Name" RefId="430">
+        <S>Sadaq's Bedwort</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\legendary.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river</S>
+          <S N="PSChildName">legendary.txt</S>
+          <Ref N="PSDrive" RefId="354" />
+          <Ref N="PSProvider" RefId="355" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">River</S>
     </MS>
   </Obj>
 </Objs>
