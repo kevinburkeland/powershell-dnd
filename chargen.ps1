@@ -75,6 +75,10 @@ if ($prompt -eq 'y') {
     $charactername = $charactername -replace " ","_"
     if (test-path -Path Characters\$charactername) {
         write-host -ForegroundColor Red "Character already exists"
+        Read-Host -Prompt "overwrite? [y/n]"
+        if ($prompt -eq 'y') {
+            $playerAttrib|Export-Clixml -path Characters\$charactername\"$charactername"_attributes.xml
+        }
     } else {
         mkdir Characters\$charactername
         $playerAttrib|Export-Clixml -Path Characters\$charactername\"$charactername"_attributes.xml
