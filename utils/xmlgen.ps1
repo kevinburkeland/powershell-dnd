@@ -4,7 +4,7 @@ Get-Content -Path C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ond
     $herbs += New-Object psobject -Property @{
         Name = $_
         Rarity = "Legendary"
-        Biome = "Arctic"
+        Biome = "Caves"
     }
 }
 

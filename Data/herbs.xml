@@ -3982,8 +3982,8 @@
               <B N="VolumeSeparatedByColon">true</B>
             </Props>
             <MS>
-              <I64 N="Used">180860518400</I64>
-              <I64 N="Free">318669549568</I64>
+              <I64 N="Used">180846800896</I64>
+              <I64 N="Free">318683267072</I64>
             </MS>
           </Obj>
           <Ref N="PSProvider" RefId="434" />
@@ -4783,6 +4783,1158 @@
         </MS>
       </Obj>
       <S N="Biome">Arctic</S>
+      <S N="Rarity">Legendary</S>
+    </MS>
+  </Obj>
+  <Obj RefId="524">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="525">
+        <S>Bluecap</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Common</S>
+    </MS>
+  </Obj>
+  <Obj RefId="526">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="527">
+        <S>Cave Moss</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Common</S>
+    </MS>
+  </Obj>
+  <Obj RefId="528">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="529">
+        <S>Wizard Hats</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Common</S>
+    </MS>
+  </Obj>
+  <Obj RefId="530">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="531">
+        <S>Blackroot</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="532">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="533">
+        <S>Brawler's Blackcorn</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="534">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="535">
+        <S>Deep Imaskari Waterplant</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="536">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="537">
+        <S>Fennel Silk</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="538">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="539">
+        <S>Fire Lichen</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">5</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="540">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="541">
+        <S>Fleshwort</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">6</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="542">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="543">
+        <S>Grammax Creeper</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">7</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="544">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="545">
+        <S>Jelly Moss</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">8</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="546">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="547">
+        <S>Light of Mystra</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">9</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="548">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="549">
+        <S>Nightmare Root</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">10</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="550">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="551">
+        <S>Sunflower of Pelor</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">11</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="552">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="553">
+        <S>Trathua</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">12</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="554">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="555">
+        <S>Zurkhwood</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">13</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UnCommon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="556">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="557">
+        <S>Abyssal Blackgrass</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="558">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="559">
+        <S>Amanita</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="560">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="561">
+        <S>Barrelstalk</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="562">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="563">
+        <S>Cave Star</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="564">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="565">
+        <S>Choke Mold</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">5</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="566">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="567">
+        <S>Corpsebomb</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">6</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="568">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="569">
+        <S>Darkhorn</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">7</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="570">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="571">
+        <S>Darkshine</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">8</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="572">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="573">
+        <S>Death's Collard</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">9</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="574">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="575">
+        <S>Dragontongue Mushrooms</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">10</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="576">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="577">
+        <S>Gravefist</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">11</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="578">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="579">
+        <S>Ironvine</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">12</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="580">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="581">
+        <S>Korogg</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">13</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="582">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="583">
+        <S>Luhix</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">14</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="584">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="585">
+        <S>Mothflowers</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">15</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="586">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="587">
+        <S>Quicksilver Lichen</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">16</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="588">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="589">
+        <S>Ripplewood</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">17</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="590">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="591">
+        <S>Torchstalk</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">18</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">SemiRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="592">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="593">
+        <S>Blackvein Flower</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="594">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="595">
+        <S>Bone Fungus</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="596">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="597">
+        <S>Calcena Mushroom</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="598">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="599">
+        <S>Cornus</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="600">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="601">
+        <S>Darkberry</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">5</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="602">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="603">
+        <S>Dungeon Fungus</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">6</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="604">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="605">
+        <S>Elora</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">7</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="606">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="607">
+        <S>Glowvine</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">8</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="608">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="609">
+        <S>Lumina Cap</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">9</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="610">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="611">
+        <S>Moonstern</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">10</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="612">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="613">
+        <S>Nightcall</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">11</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="614">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="615">
+        <S>Orevine</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">12</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="616">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="617">
+        <S>Shadowrose</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">13</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="618">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="619">
+        <S>Shaggy Ink Mushrooms</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">14</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="620">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="621">
+        <S>Stoneshroom</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">15</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="622">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="623">
+        <S>Zur</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">16</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Rare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="624">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="625">
+        <S>Cephalophage</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="626">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="627">
+        <S>Chromus Slime</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="628">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="629">
+        <S>Cosmos Glond</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="630">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="631">
+        <S>Darkwood</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">4</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="632">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="633">
+        <S>Elandir</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">5</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="634">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="635">
+        <S>Maiden’s Hair</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">6</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="636">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="637">
+        <S>Rare-Blue</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">7</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="638">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="639">
+        <S>Serpent Sweat</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">8</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="640">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="641">
+        <S>Silver Tassel Toadstool</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">9</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="642">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="643">
+        <S>Sussur</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">10</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="644">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="645">
+        <S>Wispstalks</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">11</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">UltraRare</S>
+    </MS>
+  </Obj>
+  <Obj RefId="646">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="647">
+        <S>Devil’s Bloodflower</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">1</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Legendary</S>
+    </MS>
+  </Obj>
+  <Obj RefId="648">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="649">
+        <S>Fordamna</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">2</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
+      <S N="Rarity">Legendary</S>
+    </MS>
+  </Obj>
+  <Obj RefId="650">
+    <TNRef RefId="5" />
+    <MS>
+      <Obj N="Name" RefId="651">
+        <S>Silver Hibiscus</S>
+        <MS>
+          <S N="PSPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt</S>
+          <S N="PSParentPath">C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils</S>
+          <S N="PSChildName">ondeck.txt</S>
+          <Ref N="PSDrive" RefId="433" />
+          <Ref N="PSProvider" RefId="434" />
+          <I64 N="ReadCount">3</I64>
+        </MS>
+      </Obj>
+      <S N="Biome">Caves</S>
       <S N="Rarity">Legendary</S>
     </MS>
   </Obj>
