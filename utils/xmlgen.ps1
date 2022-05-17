@@ -1,10 +1,10 @@
 
 #build the object
-Get-Content -Path C:\Users\kburkelands\Documents\GitHub\gatheringdiceroller\river\legendary.txt|ForEach-Object {
+Get-Content -Path C:\Users\kburkelands\Documents\Github\Powershell-dnd\utils\ondeck.txt|ForEach-Object {
     $herbs += New-Object psobject -Property @{
         Name = $_
         Rarity = "Legendary"
-        Biome = "River"
+        Biome = "Arctic"
     }
 }
 

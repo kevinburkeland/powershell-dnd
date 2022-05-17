@@ -4,7 +4,7 @@ $herbs = Import-Clixml -Path .\Data\herbs.xml
 $gathered = @()
 
 $rolls = Read-Host "how many rolls?"
-$biome = Read-Host "what biome? (river, forest)"
+$biome = Read-Host "what biome? (arctic, river, forest)"
 $results=$dice.GetD100($rolls)
 $results|ForEach-Object {
     if ($_ -in 1..39) {
