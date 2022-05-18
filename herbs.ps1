@@ -3,7 +3,7 @@ $dice = [Dice]::new()
 $herbs = Import-Clixml -Path .\Data\herbs.xml
 $gathered = @()
 
-$rolls = Read-Host "how many rolls?"
+$rolls = Read-Host "how many d100s to roll?"
 $biome = Read-Host "what biome? (arctic, caves, river, forest)"
 $results=$dice.GetD100($rolls)
 $results|ForEach-Object {
