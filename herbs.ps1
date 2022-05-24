@@ -26,4 +26,4 @@ $results|ForEach-Object {
         $gathered += $herbs | Where-Object Biome -like $biome | Where-Object Rarity -like "legendary" | Get-Random
     }    
 }
-$gathered|Sort-Object -Property Name|group-object -Property Name|Select-Object name,count -ExpandProperty Group
+$gathered|Sort-Object -Property Name|group-object -Property Name|Select-Object name,count
