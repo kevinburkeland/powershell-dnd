@@ -40,7 +40,7 @@ switch ($Gen) {
         1..6|ForEach-Object{
             $roll = $dice.GetD6(3)
             $roll = $roll|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-           $rolls += @($roll)
+            $rolls += @($roll)
         }
         for ($i = 0; $i -lt $playerAttrib.Attributes.Count; $i++) {
             $playerAttrib[$i].Value = $rolls[$i]
