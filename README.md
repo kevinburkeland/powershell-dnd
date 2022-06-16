@@ -1,13 +1,18 @@
 # powershell-dnd
+
 Scripts for d&amp;d written in powershell
+
 ## current scripts
+
 * chargen.ps1
 * herbs.ps1
 
 ### chargen.ps1
+
 This script will generate a character and calculate its ability modifier, currently it will also allow you to save your characters locally, hopefully this will be expanded to allow for class and race selection as well
 
 ### herbs.ps1
+
 an updated and expanded version of my old herb gathering script written in python, updated to powershell with more biome support.
 Current Source Materials Include:
 
