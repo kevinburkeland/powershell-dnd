@@ -1,5 +1,5 @@
 #Created By Kevin Burkeland
-using module ./dice.psm1
+using module ./modules/dice.psm1
 $dice = [Dice]::new()
 
 [int]$numHit=0
@@ -23,4 +23,5 @@ write-host -ForegroundColor Yellow "You hit" $numHit "times"
 write-host -ForegroundColor Yellow "You get" $bonusDice "bonus damage dice"
 [int]$totalDice = $numHit + $bonusDice
 [int]$damage = $dice.GetD4($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
+$damage = $damage - ($bonusDice * 4)
 write-host -ForegroundColor Yellow "Your total damage is" $damage

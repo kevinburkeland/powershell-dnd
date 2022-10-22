@@ -1,4 +1,4 @@
-using module ./dice.psm1
+using module ./modules/dice.psm1
 $dice = [Dice]::new()
 $herbs = Import-Clixml -Path .\Data\herbs.xml
 $gathered = @()

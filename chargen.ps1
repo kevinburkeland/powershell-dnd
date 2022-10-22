@@ -1,4 +1,4 @@
-using module ./dice.psm1
+using module ./modules/dice.psm1
 $dice = [Dice]::new()
 $playerAttrib = Import-Clixml -Path .\template\playerAttrib.xml
 
