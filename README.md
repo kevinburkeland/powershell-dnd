@@ -6,6 +6,7 @@ Scripts for d&amp;d written in powershell
 
 * chargen.ps1
 * herbs.ps1
+* animateobj.ps1
 
 ### chargen.ps1
 
@@ -53,3 +54,7 @@ With a lot of creative license and updating from ursablindness.tumblr.com reddit
 Lists compiled by Max
 
 code by Kevin Burkeland
+
+### animateobj.ps1
+
+A script for making animate object more manageable in combat
