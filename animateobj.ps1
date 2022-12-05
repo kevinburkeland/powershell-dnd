@@ -110,15 +110,15 @@ switch ($objectSize) {
         $damage = $damage - ($bonusDice * 4)
     }
     2 {
-        [int]$damage = $dice.GetD8($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
+        [int]$damage = $dice.GetD8($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+2} -End {$sum}
         $damage = $damage - ($bonusDice * 2)
     }
     3 {
-        [int]$damage = $dice.GetD6($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
+        [int]$damage = $dice.GetD6($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+1} -End {$sum}
         $damage = $damage - ($bonusDice * 1)
     }
     4 {
-        [int]$damage = $dice.GetD10($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
+        [int]$damage = $dice.GetD10($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+2} -End {$sum}
         $damage = $damage - ($bonusDice * 2)
     }
     5 {
