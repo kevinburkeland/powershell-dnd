@@ -1,9 +1,6 @@
 #Created By Kevin Burkeland
-#imports dice class
-using module ./modules/dice.psm1
-$dice = [Dice]::new()
 . ./modules/tohit.ps1
-
+. ./modules/damage.ps1
 
 #write out user info
 write-host -ForegroundColor Green "Welcome to the D&D Animate Object Damage Automater"
@@ -19,48 +16,28 @@ Write-Host "[1] Tiny Object
 switch ($objectSize) {
     1 {
         $hits=Get-ToHit -Attacks $objectNum -AC $targetAC -Bonus 8
+        $damage=Get-Damage -Sides 4 -NumDice 1 -Bonus 4 -Hits $hits[0] -Crit $hits[1]
     }
     2 {
         $hits=Get-ToHit -Attacks $objectNum -AC $targetAC -Bonus 6
+        $damage=Get-Damage -Sides 8 -NumDice 1 -Bonus 2 -Hits $hits[0] -Crit $hits[1]
     }
     3 {
         $hits=Get-ToHit -Attacks $objectNum -AC $targetAC -Bonus 5
+        $damage=Get-Damage -Sides 6 -NumDice 2 -Bonus 1 -Hits $hits[0] -Crit $hits[1]
     }
     4 {
         $hits=Get-ToHit -Attacks $objectNum -AC $targetAC -Bonus 6
+        $damage=Get-Damage -Sides 10 -NumDice 2 -Bonus 2 -Hits $hits[0] -Crit $hits[1]
     }
     5 {
         $hits=Get-ToHit -Attacks $objectNum -AC $targetAC -Bonus 8
+        $damage=Get-Damage -Sides 12 -NumDice 2 -Bonus 4 -Hits $hits[0] -Crit $hits[1]
     }
     Default { Write-Host "Invalid size, select a number 1-5" }
 }
 #writes out the number of hits
 write-host -ForegroundColor Yellow "You hit" $hits[0] "times"
 write-host -ForegroundColor Yellow "You get" $hits[1] "set of bonus crit damage dice"
-#adds the bonus dice to the number of hits
-[int]$totalDice = $hits[0] + $hits[1]
-#rolls the damage dice
-switch ($objectSize) {
-    1 {
-        [int]$damage = $dice.GetD4($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
-        $damage = $damage - ($hits[1] * 4)
-    }
-    2 {
-        [int]$damage = $dice.GetD8($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+2} -End {$sum}
-        $damage = $damage - ($hits[1] * 2)
-    }
-    3 {
-        [int]$damage = $dice.GetD6($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+1} -End {$sum}
-        $damage = $damage - ($hits[1] * 1)
-    }
-    4 {
-        [int]$damage = $dice.GetD10($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+2} -End {$sum}
-        $damage = $damage - ($hits[1] * 2)
-    }
-    5 {
-        [int]$damage = $dice.GetD12($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
-        $damage = $damage - ($hits[1] * 4)
-    }
-}
 #write out the damage
 write-host -ForegroundColor Yellow "Your total damage is" $damage
