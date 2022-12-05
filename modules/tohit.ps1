@@ -1,6 +1,6 @@
 using module ./dice.psm1
 $dice = [Dice]::new()
-function get-tohit {
+function Get-ToHit {
     [CmdletBinding()]
     param (
         [int]$Attacks,
