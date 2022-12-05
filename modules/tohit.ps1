@@ -45,5 +45,5 @@ function Get-ToHit {
             $numHit++
         }
     }
-    $numHit, $bonusDice
+    $numHit, $bonusDice, $attackRoll
 }

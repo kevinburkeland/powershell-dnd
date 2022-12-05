@@ -1,3 +1,4 @@
+param ([switch]$v)
 #Created By Kevin Burkeland
 . ./modules/tohit.ps1
 . ./modules/damage.ps1
@@ -50,3 +51,6 @@ switch ($objectSize) {
 write-host -ForegroundColor Yellow "You hit" $hits[0] "times"
 write-host -ForegroundColor Yellow "You get" $hits[1] "set of bonus crit damage dice"
 write-host -ForegroundColor Yellow "Your total damage is" $damage
+if ($v) {
+    write-host -ForegroundColor Yellow "Your rolls were" $hits[2]
+}   
