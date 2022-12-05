@@ -9,7 +9,7 @@ function Get-ToHit {
         [bool]$Advantage = $false,
         [bool]$Disadvantage = $false
     )
-    if (($Advantage) -xor ($Disadvantage)) {
+    if (!($Advantage) -xor ($Disadvantage)) {
         $attackRoll = $dice.GetD20($Attacks)
     }
     elseif ($Advantage) {
