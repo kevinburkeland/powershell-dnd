@@ -15,13 +15,11 @@ Write-Host "[1] Tiny Object
 $Adv = Read-Host -Prompt "Do you have advantage? [y/n]"
 $Adv = switch ($Adv.ToLower) {
     {$_ -in "y","yes"} { $true }
-    {$_ -in "n","no"} { $false }
     Default {$false}
 }
 $Dis = Read-Host -Prompt "Do you have disadvantage? [y/n]"
 $Dis = switch ($Dis.ToLower) {
     {$_ -in "y","yes"} { $true }
-    {$_ -in "n","no"} { $false }
     Default {$false}
 }
 #rolls the requested number of d20s
