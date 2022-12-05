@@ -98,7 +98,7 @@ switch ($objectSize) {
 }
 #writes out the number of hits
 write-host -ForegroundColor Yellow "You hit" $numHit "times"
-write-host -ForegroundColor Yellow "You get" $bonusDice "bonus damage dice"
+write-host -ForegroundColor Yellow "You get" $bonusDice "set of bonus crit damage dice"
 #adds the bonus dice to the number of hits
 [int]$totalDice = $numHit + $bonusDice
 #calculates the damage
