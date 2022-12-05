@@ -33,7 +33,7 @@ function Get-ToHit {
     $numHit = 0
     $bonusDice = 0
     for ($i = 0; $i -lt $attackRoll.Count; $i++) {
-        if (($attackRoll[$i]+$Bonus) -ge $AC) {
+        if (($attackRoll[$i]+$Bonus) -gt $AC) {
             $numHit++
             #bonus dice for crits
             if ($attackRoll[$i] -eq 20) {
