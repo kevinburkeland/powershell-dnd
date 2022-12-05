@@ -102,22 +102,27 @@ write-host -ForegroundColor Yellow "You get" $bonusDice "bonus damage dice"
 #adds the bonus dice to the number of hits
 [int]$totalDice = $numHit + $bonusDice
 #calculates the damage
-[int]$damage = $dice.GetD4($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
+
 #subtracts the hit damage from crit dice
 switch ($objectSize) {
     1 {
+        [int]$damage = $dice.GetD4($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
         $damage = $damage - ($bonusDice * 4)
     }
     2 {
+        [int]$damage = $dice.GetD8($totalDice)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
         $damage = $damage - ($bonusDice * 2)
     }
     3 {
+        [int]$damage = $dice.GetD6($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
         $damage = $damage - ($bonusDice * 1)
     }
     4 {
+        [int]$damage = $dice.GetD10($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
         $damage = $damage - ($bonusDice * 2)
     }
     5 {
+        [int]$damage = $dice.GetD12($totalDice * 2)|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_+4} -End {$sum}
         $damage = $damage - ($bonusDice * 4)
     }
 }
