@@ -1,49 +1,60 @@
 using module ./dice.psm1
-$dice = [Dice]::new()
+
 function Get-ToHit {
     [CmdletBinding()]
     param (
+        [Parameter(Mandatory)]
+        [ValidateRange(1, 200)]
         [int]$Attacks,
+
+        [Parameter(Mandatory)]
+        [ValidateRange(1, 40)]
         [int]$AC,
+
+        [Parameter(Mandatory)]
+        [ValidateRange(0, 20)]
         [int]$Bonus,
+
         [bool]$Advantage = $false,
         [bool]$Disadvantage = $false
     )
+
+    $dice = [Dice]::new()
+    $attackRolls = @()
+
     if (!(($Advantage) -xor ($Disadvantage))) {
-        $attackRoll = $dice.GetD20($Attacks)
-    }
-    elseif ($Advantage) {
-        $attackRoll = $dice.GetD20($Attacks)
-        $attackRoll2 = $dice.GetD20($Attacks)
-        for ($i = 0; $i -lt $attackRoll.Count; $i++) {
-            if ($attackRoll2[$i] -gt $attackRoll[$i]) {
-                $attackRoll[$i] = $attackRoll2[$i]
-            }
-        }
+        $attackRolls = $dice.GetD20($Attacks)
     }
     else {
-        $attackRoll = $dice.GetD20($Attacks)
-        $attackRoll2 = $dice.GetD20($Attacks)
-        for ($i = 0; $i -lt $attackRoll.Count; $i++) {
-            if ($attackRoll2[$i] -lt $attackRoll[$i]) {
-                $attackRoll[$i] = $attackRoll2[$i]
-            }
+        # Roll two sets of dice for all attacks
+        $rolls1 = $dice.GetD20($Attacks)
+        $rolls2 = $dice.GetD20($Attacks)
+
+        # Determine which roll to take for each attack
+        $comparisonOperator = if ($Advantage) { '-gt' } else { '-lt' }
+        for ($i = 0; $i -lt $Attacks; $i++) {
+            $attackRolls += if (Invoke-Expression "$($rolls1[$i]) $comparisonOperator $($rolls2[$i])") { $rolls1[$i] } else { $rolls2[$i] }
         }
     }
+
     $numHit = 0
     $bonusDice = 0
-    for ($i = 0; $i -lt $attackRoll.Count; $i++) {
-        if (($attackRoll[$i]+$Bonus) -gt $AC) {
+
+    foreach ($roll in $attackRolls) {
+        # A natural 1 always misses.
+        if ($roll -eq 1) { continue }
+
+        # A natural 20 always hits and is a critical.
+        if ($roll -eq 20) {
             $numHit++
-            #bonus dice for crits
-            if ($attackRoll[$i] -eq 20) {
-                $bonusDice++
-            }
+            $bonusDice++
+            continue
         }
-        #auto hit on 20 if ac too high
-        elseif ($attackRoll[$i] -eq 20) {
+
+        # Check if the roll plus bonus meets or beats the AC.
+        if (($roll + $Bonus) -ge $AC) {
             $numHit++
         }
     }
-    $numHit, $bonusDice, $attackRoll
+    return $numHit, $bonusDice, $attackRolls
 }

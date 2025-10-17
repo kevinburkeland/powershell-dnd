@@ -1,15 +1,25 @@
 using module ./dice.psm1
-$dice = [Dice]::new()
+
 function Get-Damage {
+    [CmdletBinding()]
     param (
+        [Parameter(Mandatory)]
+        [ValidateRange(1, 100)]
         [int]$Sides,
+
+        [Parameter(Mandatory)]
+        [ValidateRange(1, 100)]
         [int]$NumDice,
-        [int]$Bonus,
-        [int]$Hits,
-        [int]$Crit
+
+        [int]$Bonus = 0,
+        [ValidateRange(0, 200)]
+        [int]$Hits = 0,
+        [ValidateRange(0, 200)]
+        [int]$Crit = 0
     )
-    $damage = 0
-    $damage = ($dice.roll($sides, ($hits*$numDice)) + ($hits*$bonus)) + ($dice.roll($sides, ($crit*$numDice)))
-    $damage = $damage|ForEach-Object -Begin {$sum=0} -Process {$sum+=$_} -End {$sum}
-    $damage
+    $dice = [Dice]::new()
+    $totalDiceToRoll = ($Hits * $NumDice) + ($Crit * $NumDice)
+    $diceRolls = $dice.roll($Sides, $totalDiceToRoll)
+    $totalDamage = ($diceRolls | Measure-Object -Sum).Sum + ($Hits * $Bonus)
+    return $totalDamage
 }
