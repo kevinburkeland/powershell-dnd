@@ -1,5 +1,3 @@
-using module ./dice.psm1
-
 function Get-ToHit {
     [CmdletBinding()]
     param (
@@ -19,23 +17,10 @@ function Get-ToHit {
         [bool]$Disadvantage = $false
     )
 
-    $dice = [Dice]::new()
-    $attackRolls = @()
-
-    if (!(($Advantage) -xor ($Disadvantage))) {
-        $attackRolls = $dice.GetD20($Attacks)
-    }
-    else {
-        # Roll two sets of dice for all attacks
-        $rolls1 = $dice.GetD20($Attacks)
-        $rolls2 = $dice.GetD20($Attacks)
-
-        # Determine which roll to take for each attack
-        $comparisonOperator = if ($Advantage) { '-gt' } else { '-lt' }
-        for ($i = 0; $i -lt $Attacks; $i++) {
-            $attackRolls += if (Invoke-Expression "$($rolls1[$i]) $comparisonOperator $($rolls2[$i])") { $rolls1[$i] } else { $rolls2[$i] }
-        }
-    }
+    $attackRolls = Invoke-DiceRoll -Dice 'd20' `
+                                   -Count $Attacks `
+                                   -Advantage:$Advantage `
+                                   -Disadvantage:$Disadvantage
 
     $numHit = 0
     $bonusDice = 0

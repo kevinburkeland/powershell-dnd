@@ -1,19 +1,38 @@
-function Private:Invoke-DiceRoll {
+function Invoke-DiceRoll {
     [CmdletBinding()]
     param(
-        [Parameter(Mandatory=$true)]
-        [int]$MaxRoll,
+        [Parameter(Mandatory = $true)]
+        [ValidatePattern('d(4|6|8|10|12|20|100)')]
+        [string]$Dice,
 
-        [Parameter(Mandatory=$false)]
-        [int]$NumDice = 1
+        [Parameter(Mandatory = $false)]
+        [int]$Count = 1,
+
+        [Parameter(Mandatory = $false)]
+        [switch]$Advantage,
+
+        [Parameter(Mandatory = $false)]
+        [switch]$Disadvantage
     )
 
+    $maxRoll = [int]($Dice.Substring(1))
     [int[]]$rolls = @()
-    1..$NumDice | ForEach-Object {
-        # Get-Random -Maximum is exclusive, so add 1 to get values from 1 to MaxRoll
-        # This ensures rolls are between 1 and MaxRoll (inclusive).
-        $roll = (Get-Random -Maximum $MaxRoll) + 1
-        $rolls += $roll
+
+    # If advantage and disadvantage cancel out, or neither is specified, perform normal rolls.
+    if ($Advantage -eq $Disadvantage) {
+        foreach ($i in 1..$Count) {
+            $rolls += (Get-Random -Maximum $maxRoll) + 1
+        }
+    }
+    else {
+        # For each requested roll, roll twice and take the appropriate one.
+        foreach ($i in 1..$Count) {
+            $roll1 = (Get-Random -Maximum $maxRoll) + 1
+            $roll2 = (Get-Random -Maximum $maxRoll) + 1
+
+            $comparison = if ($Advantage) { [System.Math]::Max($roll1, $roll2) } else { [System.Math]::Min($roll1, $roll2) }
+            $rolls += $comparison
+        }
     }
     return $rolls
 }
