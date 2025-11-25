@@ -1,0 +1,32 @@
+[
+    {
+        "Attribute": "Strength",
+        "Value": 0,
+        "Modifier": 0
+    },
+    {
+        "Attribute": "Dexterity",
+        "Value": 0,
+        "Modifier": 0
+    },
+    {
+        "Attribute": "Constitution",
+        "Value": 0,
+        "Modifier": 0
+    },
+    {
+        "Attribute": "Intelligence",
+        "Value": 0,
+        "Modifier": 0
+    },
+    {
+        "Attribute": "Wisdom",
+        "Value": 0,
+        "Modifier": 0
+    },
+    {
+        "Attribute": "Charisma",
+        "Value": 0,
+        "Modifier": 0
+    }
+]

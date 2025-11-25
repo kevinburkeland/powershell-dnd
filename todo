@@ -1,2 +1,18 @@
-clean up herbs.xml
-ask for suggestions for additional scripts
+# TODO
+
+## High Priority
+- [ ] Clean up `utils` directory: Delete `Transform-Herbs.ps1` as it is no longer needed.
+- [ ] Add Comment-Based Help to all functions (Synopsis, Description, Parameters, Examples).
+- [ ] Standardize output: Use `Write-Verbose` for debug/info messages instead of `Write-Host`.
+
+## Medium Priority
+- [ ] Expand Pester tests:
+    - Add tests for `Start-AnimatedObjectCombat` (mocking user input).
+    - Add tests for `Start-CharacterGeneration` (mocking user input).
+    - Add tests for `Get-RandomHerb` (mocking user input).
+- [ ] Create a `New-Character` function to separate logic from the interactive `Start-CharacterGeneration` script.
+
+## Low Priority
+- [ ] Explore adding more biomes to `herbs.json`.
+- [ ] Add class and race selection to character generation.
+- [ ] Create a build script to package the module.
