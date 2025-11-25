@@ -49,4 +49,4 @@ With a lot of creative license and updating from ursablindness.tumblr.com reddit
 
 Lists compiled by Max
 
-Code by Kevin Burkeland
+Code by Kevin Burkeland (and Copilot and Gemini I guess at this point)
