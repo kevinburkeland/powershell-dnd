@@ -2,7 +2,7 @@ function Start-CharacterGeneration {
     #load the dice module
     . "$PSScriptRoot/../Private/Invoke-DiceRoll.ps1"
     #import player attribute object
-    $playerAttrib = Get-Content -Path "$PSScriptRoot/../../template/PlayerAttributes.json" | ConvertFrom-Json
+    $playerAttrib = Get-Content -Path "$PSScriptRoot/../template/PlayerAttributes.json" | ConvertFrom-Json
     #display user input info
     Write-Host -Object ("Welcome to the D&D character roller written by Kevin Burkeland
 
