@@ -31,4 +31,24 @@ Describe "Get-ToHit Function" {
             $hits | Should -Be 10 # With a roll of 5 + 10 bonus, every attack (total 15) should hit AC 15
         }
     }
+
+    It "should count a Natural 1 as a miss regardless of bonus" {
+        InModuleScope $TestModule {
+            # Mock roll of 1. With bonus 20, total is 21 which > AC 10.
+            # But Nat 1 must miss.
+            Mock Invoke-DiceRoll { return @(1) }
+            ($hits, $crits, $rolls) = Get-ToHit -Attacks 1 -AC 10 -Bonus 20
+            $hits | Should -Be 0
+        }
+    }
+
+    It "should count a Natural 20 as a hit and a crit" {
+        InModuleScope $TestModule {
+            # Mock roll of 20.
+            Mock Invoke-DiceRoll { return @(20) }
+            ($hits, $crits, $rolls) = Get-ToHit -Attacks 1 -AC 30 -Bonus 0
+            $hits | Should -Be 1
+            $crits | Should -Be 1
+        }
+    }
 }

@@ -1,6 +1,3 @@
-# Get the path to the module's root directory
-$PSScriptRoot = Get-Item -Path $PSCommandPath | Select-Object -ExpandProperty DirectoryName
-
 # Define paths to the Public and Private folders
 $PublicFolderPath = Join-Path -Path $PSScriptRoot -ChildPath "Public"
 $PrivateFolderPath = Join-Path -Path $PSScriptRoot -ChildPath "Private"

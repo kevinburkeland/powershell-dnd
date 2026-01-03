@@ -61,4 +61,16 @@ Describe "Get-Damage Function" {
             $damage | Should -Be 0
         }
     }
+
+    It "should return 0 damage if the bonus is negative enough to reduce the total below 0" {
+        InModuleScope $TestModule {
+            # Mock Invoke-DiceRoll to return 1 (low roll)
+            Mock Invoke-DiceRoll { return 1 }
+            
+            # 1 Hit, 1d6-5 damage. Expected: 1 - 5 = -4, clamped to 0
+            $damage = Get-Damage -Sides 6 -NumDice 1 -Bonus -5 -Hits 1 -Crit 0
+            
+            $damage | Should -Be 0
+        }
+    }
 }

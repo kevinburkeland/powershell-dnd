@@ -21,8 +21,9 @@ Or run the scripts directly from the `PowerShellDnD\Public` directory.
 
 ## Utilities
 
-*   `utils/Add-HerbData.ps1`: A utility script to add new herbs to `herbs.json`.
-    *   Usage: `.\utils\Add-HerbData.ps1 -Biome "Forest" -Rarity "Common"` (reads from `utils/ondeck.txt`)
+*   `PowerShellDnD/utils/Add-HerbData.ps1`: A utility script to add new herbs to `herbs.json`.
+    *   Usage: `.\PowerShellDnD\utils\Add-HerbData.ps1 -Biome "Forest" -Rarity "Common"` (reads from `PowerShellDnD/utils/ondeck.txt`)
+*   `PowerShellDnD/utils/Transform-Herbs.ps1`: Reorganizes the herb data structure.
 
 ## Herb Sources
 

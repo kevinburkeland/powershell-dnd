@@ -24,6 +24,10 @@ function Get-Damage {
         $diceRolls = Invoke-DiceRoll -Dice "d$Sides" -Count $totalDiceToRoll
         # Ensure $diceRolls is an array for Measure-Object
         $totalDamage = (@($diceRolls) | Measure-Object -Sum).Sum + ($Hits * $Bonus)
+        
+        if ($totalDamage -lt 0) {
+            $totalDamage = 0
+        }
     }
     else {
         $totalDamage = 0
